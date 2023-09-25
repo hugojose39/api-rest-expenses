@@ -23,6 +23,6 @@ class TokenController
 
         $token = $user->createToken($input['token_name']);
 
-        return new TokenResource($token);
+        return new TokenResource(['token' => $token->plainTextToken, 'user_id' => $user->id]);
     }
 }

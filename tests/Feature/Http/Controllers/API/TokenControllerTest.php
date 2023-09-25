@@ -83,7 +83,10 @@ class TokenControllerTest extends TestCase
 
         $response->assertOk();
         $response->assertJsonStructure([
-            'data' => ['token'],
+            'data' => [
+                'token',
+                'user_id',
+            ],
         ]);
     }
 }
