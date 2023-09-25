@@ -126,5 +126,5 @@ Se pretende executa-los de forma separada, execute um de cada vez:
 
 - **./vendor/bin/sail test tests/Feature/Http/Controllers/API/TokenControllerTest.php**
 - **./vendor/bin/sail test tests/Feature/Http/Controllers/API/ExpenseControllerTest.php**
-- **./vendor/bin/sail test tests tests/Feature/Listeners/Expense/Created/SendCreatedExpenseNotificationTest.php**
-- **./vendor/bin/sail test tests tests/Feature/Notifications/ExpenseCreatedTest.php**
+- **./vendor/bin/sail test tests/Feature/Listeners/Expense/Created/SendCreatedExpenseNotificationTest.php**
+- **./vendor/bin/sail test tests/Feature/Notifications/ExpenseCreatedTest.php**
