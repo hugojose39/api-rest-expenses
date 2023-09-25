@@ -98,6 +98,14 @@ curl -X POST
 
 http://localhost/api/expenses
 
+### Listar uma despesa específica
+
+curl -X GET
+
+- H "Authorization: Bearer {token}"
+
+http://localhost/api/expenses/1
+
 ### Atualizar uma despesa
 
 curl -X PUT
