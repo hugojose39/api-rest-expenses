@@ -67,7 +67,7 @@ DELETE /api/expenses/{id}: Exclui uma despesa específica.
 curl -X POST
 
 - H "Content-Type: application/json"
-- d `{ "email": "[johndoe@example.com](mailto:johndoe@example.com)", "name": "John Doe", "password": "Password1234", "password_confirmation": "Password1234", }`
+- d `{ "email": "johndoe@example.com", "name": "John Doe", "password": "Password1234", "password_confirmation": "Password1234", }`
 
 http://localhost/api/register
 
@@ -76,7 +76,7 @@ http://localhost/api/register
 curl -X POST
 
 - H "Content-Type: application/json"
-- d `{ "email": "[johndoe@example.com](mailto:johndoe@example.com)", "token_name": "name token" }`
+- d `{ "email": "johndoe@example.com", "token_name": "name token" }`
 
 http://localhost/api/token
 
